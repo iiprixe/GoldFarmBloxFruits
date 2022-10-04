@@ -1,0 +1,265 @@
+--dont skid pweasey weasy
+
+-- Instances: 18 | Scripts: 1 | Modules: 0
+local G2L = {};
+
+-- Workspace.ScreenGui
+G2L["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+
+
+-- Workspace.ScreenGui.Loader
+G2L["2"] = Instance.new("Frame", G2L["1"]);
+G2L["2"]["BorderSizePixel"] = 0;
+G2L["2"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["2"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["2"]["BackgroundTransparency"] = 0.4000000059604645;
+G2L["2"]["Size"] = UDim2.new(0, 387, 0, 185);
+G2L["2"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
+G2L["2"]["Name"] = [[Loader]];
+
+-- Workspace.ScreenGui.Loader.Buttons
+G2L["3"] = Instance.new("Frame", G2L["2"]);
+G2L["3"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["3"]["BackgroundTransparency"] = 1;
+G2L["3"]["Size"] = UDim2.new(0, 379, 0, 35);
+G2L["3"]["Position"] = UDim2.new(0.010335917584598064, 0, 0.7675675749778748, 0);
+G2L["3"]["Name"] = [[Buttons]];
+
+-- Workspace.ScreenGui.Loader.Buttons.UIListLayout
+G2L["4"] = Instance.new("UIListLayout", G2L["3"]);
+G2L["4"]["VerticalAlignment"] = Enum.VerticalAlignment.Center;
+G2L["4"]["FillDirection"] = Enum.FillDirection.Horizontal;
+G2L["4"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Center;
+G2L["4"]["Padding"] = UDim.new(0, 10);
+G2L["4"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+-- Workspace.ScreenGui.Loader.Buttons.Next
+G2L["5"] = Instance.new("TextButton", G2L["3"]);
+G2L["5"]["TextSize"] = 34;
+G2L["5"]["BackgroundColor3"] = Color3.fromRGB(31, 31, 31);
+G2L["5"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["5"]["Size"] = UDim2.new(0, 155, 0, 35);
+G2L["5"]["Name"] = [[Next]];
+G2L["5"]["Text"] = [[Next]];
+G2L["5"]["Font"] = Enum.Font.SourceSansLight;
+G2L["5"]["Position"] = UDim2.new(0.03359173238277435, 0, 0.8247104287147522, 0);
+G2L["5"]["BackgroundTransparency"] = 0.800000011920929;
+
+-- Workspace.ScreenGui.Loader.Buttons.Next.UICorner
+G2L["6"] = Instance.new("UICorner", G2L["5"]);
+
+
+-- Workspace.ScreenGui.Loader.Buttons.Chest1
+G2L["7"] = Instance.new("TextButton", G2L["3"]);
+G2L["7"]["TextSize"] = 26;
+G2L["7"]["BackgroundColor3"] = Color3.fromRGB(31, 31, 31);
+G2L["7"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["7"]["Visible"] = false;
+G2L["7"]["Size"] = UDim2.new(0, 116, 0, 35);
+G2L["7"]["Name"] = [[Chest1]];
+G2L["7"]["Text"] = [[Iron/Chest1]];
+G2L["7"]["Font"] = Enum.Font.SourceSansLight;
+G2L["7"]["Position"] = UDim2.new(0.5172318816184998, 0, 0, 0);
+G2L["7"]["BackgroundTransparency"] = 0.800000011920929;
+
+-- Workspace.ScreenGui.Loader.Buttons.Chest1.UICorner
+G2L["8"] = Instance.new("UICorner", G2L["7"]);
+
+
+-- Workspace.ScreenGui.Loader.Buttons.Chest2
+G2L["9"] = Instance.new("TextButton", G2L["3"]);
+G2L["9"]["TextSize"] = 26;
+G2L["9"]["BackgroundColor3"] = Color3.fromRGB(31, 31, 31);
+G2L["9"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["9"]["Visible"] = false;
+G2L["9"]["Size"] = UDim2.new(0, 116, 0, 35);
+G2L["9"]["Name"] = [[Chest2]];
+G2L["9"]["Text"] = [[Gold/Chest2]];
+G2L["9"]["Font"] = Enum.Font.SourceSansLight;
+G2L["9"]["Position"] = UDim2.new(-0.139841690659523, 0, 0, 0);
+G2L["9"]["BackgroundTransparency"] = 0.800000011920929;
+
+-- Workspace.ScreenGui.Loader.Buttons.Chest2.UICorner
+G2L["a"] = Instance.new("UICorner", G2L["9"]);
+
+
+-- Workspace.ScreenGui.Loader.Buttons.Chest3
+G2L["b"] = Instance.new("TextButton", G2L["3"]);
+G2L["b"]["TextSize"] = 18;
+G2L["b"]["BackgroundColor3"] = Color3.fromRGB(31, 31, 31);
+G2L["b"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["b"]["Visible"] = false;
+G2L["b"]["Size"] = UDim2.new(0, 116, 0, 35);
+G2L["b"]["Name"] = [[Chest3]];
+G2L["b"]["Text"] = [[Diamond/Chest3]];
+G2L["b"]["Font"] = Enum.Font.SourceSansLight;
+G2L["b"]["Position"] = UDim2.new(0.18869510293006897, 0, 0, 0);
+G2L["b"]["BackgroundTransparency"] = 0.800000011920929;
+
+-- Workspace.ScreenGui.Loader.Buttons.Chest3.UICorner
+G2L["c"] = Instance.new("UICorner", G2L["b"]);
+
+
+-- Workspace.ScreenGui.Loader.Buttons.Stop
+G2L["d"] = Instance.new("TextButton", G2L["3"]);
+G2L["d"]["TextSize"] = 34;
+G2L["d"]["BackgroundColor3"] = Color3.fromRGB(31, 31, 31);
+G2L["d"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["d"]["Visible"] = false;
+G2L["d"]["Size"] = UDim2.new(0, 155, 0, 35);
+G2L["d"]["Name"] = [[Stop]];
+G2L["d"]["Text"] = [[Stop]];
+G2L["d"]["Font"] = Enum.Font.SourceSansLight;
+G2L["d"]["Position"] = UDim2.new(0.03359173238277435, 0, 0.8247104287147522, 0);
+G2L["d"]["BackgroundTransparency"] = 0.800000011920929;
+
+-- Workspace.ScreenGui.Loader.Buttons.Stop.UICorner
+G2L["e"] = Instance.new("UICorner", G2L["d"]);
+
+
+-- Workspace.ScreenGui.Loader.Text
+G2L["f"] = Instance.new("TextLabel", G2L["2"]);
+G2L["f"]["TextWrapped"] = true;
+G2L["f"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["f"]["TextSize"] = 25;
+G2L["f"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["f"]["Size"] = UDim2.new(0, 350, 0, 118);
+G2L["f"]["Text"] = [[]];
+G2L["f"]["Name"] = [[Text]];
+G2L["f"]["Font"] = Enum.Font.SourceSansLight;
+G2L["f"]["BackgroundTransparency"] = 1;
+G2L["f"]["Position"] = UDim2.new(0.04651162773370743, 0, 0.08648648858070374, 0);
+
+-- Workspace.ScreenGui.Loader.UICorner
+G2L["10"] = Instance.new("UICorner", G2L["2"]);
+
+
+-- Workspace.ScreenGui.Loader.LocalScript
+G2L["11"] = Instance.new("LocalScript", G2L["2"]);
+
+
+-- Workspace.ScreenGui.Loader.UIGradient
+G2L["12"] = Instance.new("UIGradient", G2L["2"]);
+G2L["12"]["Rotation"] = 40;
+G2L["12"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(31, 31, 31)),ColorSequenceKeypoint.new(0.469, Color3.fromRGB(81, 81, 81)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(31, 31, 31))};
+
+-- Workspace.ScreenGui.Loader.LocalScript
+local function C_11()
+local script = G2L["11"];
+	wait(1)
+	local TextLabel = script.Parent.Text
+	local Btn = script.Parent.Buttons
+	
+	getgenv().stoped = false
+	
+	text = "Would You Like To Load? [Chest Farm]"
+	for i = 1, #text do
+		TextLabel.Text = string.sub(text,1,i)
+		wait(0.05)
+	end
+	
+	Btn.Next.MouseButton1Down:Connect(function()
+		Btn.Next.Visible = false
+		Btn.Chest1.Visible = true
+		Btn.Chest2.Visible = true
+		Btn.Chest3.Visible = true
+		text = "What Chest Would You Like To Farm?"
+		for i = 1, #text do
+			TextLabel.Text = string.sub(text,1,i)
+			wait(0.05)
+		end
+	end)
+	
+	Btn.Chest1.MouseButton1Down:Connect(function()
+		Btn.Next.Visible = false
+		Btn.Chest1.Visible = false
+		Btn.Chest2.Visible = false
+		Btn.Chest3.Visible = false
+		text = "Chest1/Iron Selected Chest Farm Will Load In 2"
+		for i = 1, #text do
+			TextLabel.Text = string.sub(text,1,i)
+			wait(0.05)
+		end
+		wait(2)
+		Btn.Stop.Visible = true
+		while stoped == false do
+			wait(2)
+			local TweenService = game:GetService("TweenService")
+	
+			local tween = TweenService:Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(25), {CFrame = game:GetService("Workspace").Chest1.CFrame})
+			game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = true
+			tween:Play()
+			wait(23)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = false
+		end
+		
+	end)
+	
+	Btn.Chest2.MouseButton1Down:Connect(function()
+		Btn.Next.Visible = false
+		Btn.Chest1.Visible = false
+		Btn.Chest2.Visible = false
+		Btn.Chest3.Visible = false
+		text = "Chest2/Gold Selected Chest Farm Will Load In 2"
+		for i = 1, #text do
+			TextLabel.Text = string.sub(text,1,i)
+			wait(0.05)
+		end
+		wait(2)
+		Btn.Stop.Visible = true
+		while stoped == false do
+			wait(2)
+			local TweenService = game:GetService("TweenService")
+	
+			local tween = TweenService:Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(25), {CFrame = game:GetService("Workspace").Chest2.CFrame})
+			game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = true
+			tween:Play()
+			wait(23)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = false
+		end
+		
+	end)
+	
+	Btn.Chest3.MouseButton1Down:Connect(function()
+		Btn.Next.Visible = false
+		Btn.Chest1.Visible = false
+		Btn.Chest2.Visible = false
+		Btn.Chest3.Visible = false
+		text = "Chest3/Diamond Selected Chest Farm Will Load In 2"
+		for i = 1, #text do
+			TextLabel.Text = string.sub(text,1,i)
+			wait(0.05)
+		end
+		wait(2)
+		Btn.Stop.Visible = true
+		while stoped == false do
+			wait(2)
+			local TweenService = game:GetService("TweenService")
+	
+			local tween = TweenService:Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(25), {CFrame = game:GetService("Workspace").Chest3.CFrame})
+			game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = true
+			tween:Play()
+			wait(23)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = false
+		end
+	end)
+	
+	Btn.Stop.MouseButton1Down:Connect(function()
+		local TS = game:GetService("TweenService")
+		local size = TS:Create(TextLabel, TweenInfo.new(0.3), {Size = UDim2.new(0, 350,0, 154)})
+		size:Play()
+		Btn.Stop.Visible = false
+		getgenv().stoped = true
+		text = "Stoped!"
+		for i = 1, #text do
+			TextLabel.Text = string.sub(text,1,i)
+			wait(0.05)
+		end
+		wait(1)
+		script.Parent:Destroy()
+	end)
+end;
+task.spawn(C_11);
+
+return G2L["1"], require;
